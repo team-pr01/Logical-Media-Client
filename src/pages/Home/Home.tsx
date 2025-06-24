@@ -4,6 +4,7 @@ import OurApproach from "../../components/HomePage/OurApproach/OurApproach";
 import SolutionsWeOffer from "../../components/HomePage/SolutionsWeOffer/SolutionsWeOffer";
 import Testimonials from "../../components/HomePage/Testimonials/Testimonials";
 import TrustedBy from "../../components/HomePage/TrustedBy/TrustedBy";
+import GetInTouch from "../../components/reusable/GetInTouch/GetInTouch";
 import GetStartedCTA from "../../components/reusable/GetStartedCTA.tsx/GetStartedCTA";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <MakeUsDifferent/>
             <OurApproach/> 
             <Testimonials/>
+            <GetInTouch/>
         </div>
     );
 };
