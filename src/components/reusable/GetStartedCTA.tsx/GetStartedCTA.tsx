@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 
 const GetStartedCTA = () => {
   return (
-    <div className="bg-[#D64532F2] p-6">
+    <div className="bg-[#D64532F2] px-6 pt-6 pb-10">
       <Container>
         <div className="flex flex-col items-center justify-center h-full font-Lato">
           <h1 className="text-[50px] text-[#FDF8EE] leading-[68px] font-semibold text-center mb-[52px]">
@@ -18,7 +18,7 @@ const GetStartedCTA = () => {
             />
             <Link
               to="/book-a-call"
-              className="bg-[#FDF8EE] border border-[#FDF8EE] hover:bg-transparent hover:text-[#FDF8EE]  text-black text-[24px] px-10 py-2 rounded-[36px] shadow transition duration-300 "
+              className="bg-[#FDF8EE] border border-[#FDF8EE] hover:bg-transparent hover:text-[#FDF8EE] text-black text-[24px] px-10 py-2 rounded-[36px] shadow transition duration-300 "
             >
               Get Started
             </Link>
