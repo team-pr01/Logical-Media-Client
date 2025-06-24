@@ -5,7 +5,7 @@ const SolutionsWeOffer = () => {
   return (
     <div className="font-Lato my-[100px]">
       <SectionHeading
-  title="Solutions We Offer"
+  title1="Solutions We Offer"
   subtitle="Content Creation Services We Offer Tailored to your Goals"
 />
 

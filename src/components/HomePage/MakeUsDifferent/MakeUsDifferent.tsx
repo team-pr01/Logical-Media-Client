@@ -8,7 +8,7 @@ const MakeUsDifferent = () => {
     <div className="font-Lato my-[100px]">
       <Container>
         <SectionHeading
-          title="What Makes Us Different"
+          title1="What Makes Us Different"
           subtitle="“Because Logic, Media and Results Belong Together.”"
         />
         <div className="flex gap-[30px] mt-[42px] justify-center flex-wrap">
