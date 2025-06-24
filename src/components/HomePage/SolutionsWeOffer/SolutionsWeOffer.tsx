@@ -2,7 +2,7 @@ import { ICONS } from "../../../assets";
 
 const SolutionsWeOffer = () => {
   return (
-    <div className="font-Lato mt-[100px]">
+    <div className="font-Lato my-[100px]">
       <h1 className="text-[50px] text-neutral-10 leading-[40px] font-bold text-center">
         Solutions We Offer
       </h1>
