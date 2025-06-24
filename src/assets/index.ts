@@ -13,6 +13,9 @@ import rightArrow from "../assets/icons/right-arrow.svg";
 import call from "../assets/icons/call.svg";
 import mail from "../assets/icons/mail.svg";
 import location from "../assets/icons/location.svg";
+import avatar1 from "../assets/icons/avatar-1.jpg";
+import avatar2 from "../assets/icons/avatar2.jpg";
+import avatar3 from "../assets/icons/avatar3.jpg";
 
 import heroImg from "../assets/images/hero-img.png";
 import partner1 from "../assets/images/partners/partner-1.jpg";
@@ -31,6 +34,23 @@ import contentProduction from "../assets/images/content-production.png";
 import aiAutomation from "../assets/images/Ai-automation.png";
 import contentCreation from "../assets/images/content-creation.png";
 
+import campaignStrategy from "../assets/icons/differenct-Icons/campaign-strategy.png";
+import creativity from "../assets/icons/differenct-Icons/creativity.png";
+import community from "../assets/icons/differenct-Icons/community.png";
+import ourTeam from "../assets/icons/differenct-Icons/our-team.png";
+
+import ourApproach from "../assets/icons/our-approach.png";
+import approach1 from "../assets/icons/our-approach/approach1.svg";
+import approach2 from "../assets/icons/our-approach/approach2.svg";
+import approach3 from "../assets/icons/our-approach/approach3.svg";
+import approach4 from "../assets/icons/our-approach/approach4.svg";
+
+import whatsapp from "../assets/icons/whatsapp.svg"
+import tick from "../assets/icons/tick.svg"
+
+import comment from "../assets/icons/comment.png"
+import ratings from "../assets/icons/ratings.svg"
+
 export const ICONS = {
   logo,
   logoWhite,
@@ -43,10 +63,26 @@ export const ICONS = {
   contentProductionIcon,
   aiAutomationIcon,
   contentCreationIcon,
+  campaignStrategy,
+  creativity,
+  community,
+  ourTeam,
+  ourApproach,
+  approach1,
+  approach2,
+  approach3,
+  approach4,
+  whatsapp,
+  tick,
+  comment,
+  ratings,
   rightArrow,
   call,
   mail,
   location,
+  avatar1,
+  avatar2,
+  avatar3,
 };
 
 export const IMAGES = {
