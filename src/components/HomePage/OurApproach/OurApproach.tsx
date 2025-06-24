@@ -4,6 +4,32 @@ import Container from "../../reusable/Container/Container";
 import { ICONS } from "../../../assets";
 
 const OurApproach = () => {
+  const approachData = [
+  {
+    title: "Research-First Thinking",
+    description:
+      "We dive deep into market trends, audience behaviour, and brand positioning before a single idea is pitched.",
+    icon: ICONS.approach1,
+  },
+  {
+    title: "Logical Planning",
+    description:
+      "We build structured, scalable strategies rooted in business goals whether you're launching a product or scaling your brand.",
+    icon: ICONS.approach2,
+  },
+  {
+    title: "Creative Execution",
+    description:
+      "Our team translates strategy into smart design, compelling content, and high-performing campaigns, all tailored to stand out.",
+    icon: ICONS.approach3,
+  },
+  {
+    title: "Performance Driven",
+    description:
+      "We continuously track, analyze, and refine every touchpoint to ensure maximum return on every rupee spent.",
+    icon: ICONS.approach4,
+  },
+];
   return (
     <Container>
       <section className="flex flex-col lg:flex-row w-full font-Lato px-4 py-16 gap-12 justify-center items-center">
@@ -12,9 +38,9 @@ const OurApproach = () => {
           <div className=" flex flex-row gap-[10px] mb-[6px] justify-start items-center">
             <div className="size-11 rounded-full bg-primary-10 justify-center items-center flex">
               <img
-                src={ICONS.fire}
+                src={ICONS.ourApproach}
                 alt={"Our Approach"}
-                className="size-[36px] "
+                className="size-[36px]"
               />
             </div>
             <h1 className="text-[28px] text-neutral-10 leading-[27px] font-medium">
@@ -42,47 +68,17 @@ const OurApproach = () => {
 
         {/* Right - 60% */}
         <div className="w-full lg:w-[60%] grid grid-cols-2  gap-11">
-          <div>
-            <img src={ICONS.fire} alt={"approAch"} className="size-[70px]" />
-            <h1 className="text-2xl text-neutral-10 leading-[36px] font-medium mt-4">
-              Research-First Thinking
-            </h1>
-            <p className="text-black text-xl leading-[32px]">
-              We dive deep into market trends, audience behaviour, and brand
-              positioning before a single idea is pitched.{" "}
-            </p>
-          </div>
-          <div>
-            <img src={ICONS.fire} alt={"approAch"} className="size-[70px]" />
-            <h1 className="text-2xl text-neutral-10 leading-[36px] font-medium mt-4">
-              Logical Planning
-            </h1>
-            <p className="text-black text-xl leading-[32px]">
-             We build structured, scalable strategies rooted in business 
-goals  whether you're launching 
-a product or scaling your brand
-            </p>
-          </div>
-          <div>
-            <img src={ICONS.fire} alt={"approAch"} className="size-[70px]" />
-            <h1 className="text-2xl text-neutral-10 leading-[36px] font-medium mt-4">
-              Creative Execution
-            </h1>
-            <p className="text-black text-xl leading-[32px]">
-             Our team translates strategy into smart design, compelling content, and high-performing campaigns,
-all tailored to stand out.
-            </p>
-          </div>
-          <div>
-            <img src={ICONS.fire} alt={"approAch"} className="size-[70px]" />
-            <h1 className="text-2xl text-neutral-10 leading-[36px] font-medium mt-4">
-             Performance Driven
-            </h1>
-            <p className="text-black text-xl leading-[32px]">
-              We continuously track, analyze, and refine every touchpoint to ensure maximum return on 
-every rupee spent.
-            </p>
-          </div>
+          {approachData.map((item, index) => (
+        <div key={index} className="flex flex-col items-start">
+          <img src={item.icon} alt={item.title} className="w-[74px] h-[54px] " />
+          <h1 className="text-2xl text-neutral-10 leading-[36px] font-medium mt-4">
+            {item.title}
+          </h1>
+          <p className="text-black text-xl leading-[32px] mt-2">
+            {item.description}
+          </p>
+        </div>
+      ))}
           {/* Add more cards as needed */}
         </div>
       </section>

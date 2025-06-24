@@ -11,7 +11,7 @@ const MakeUsDifferentCard: React.FC<MakeUsDifferentCardProps> = ({ icon, title, 
   return (
     <div
       className="group bg-[#FDF8EE] hover:bg-gradient-to-b hover:from-[#FDEBE7]/50 hover:to-primary-10 
-                 transition-all duration-300 ease-in-out rounded-[8px] w-[270px] h-[322px] py-5 px-2"
+                 transition-all duration-300 ease-in-out rounded-[8px] w-[270px] h-fit py-5 px-2"
     >
       <div className="pt-5 flex flex-col items-center">
         <img src={icon} alt={title} className="size-[70px]" />
