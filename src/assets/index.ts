@@ -1,4 +1,8 @@
 import logo from "../assets/icons/logo.png";
+import avatar from "../assets/icons/avatar.svg";
+import fire from "../assets/icons/fire.svg";
+import smileEmoji from "../assets/icons/smile-emoji.svg";
+import announcement from "../assets/icons/announcement.svg";
 
 import heroImg from "../assets/images/hero-img.png";
 import partner1 from "../assets/images/partners/partner-1.jpg";
@@ -14,6 +18,10 @@ import partner10 from "../assets/images/partners/partner-10.jpg";
 
 export const ICONS = {
   logo,
+  avatar,
+  fire,
+  smileEmoji,
+  announcement,
 };
 
 export const IMAGES = {
