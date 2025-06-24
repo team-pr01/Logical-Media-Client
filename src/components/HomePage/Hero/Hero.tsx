@@ -26,7 +26,7 @@ const Hero = () => {
             <span className="text-primary-10 inline-block">
                 <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition></span>{" "}
           </h1>
-          <p className="text-neutral-10 text-[30px] leading-[57px] mt-[10px]">
+          <p className="text-neutral-10 text-[23px] leading-[57px] mt-[10px]">
             “Blending logic and creativity to craft compelling brand stories.”
           </p>
 
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
 
           <div className="font-Lato flex items-center gap-5 mt-[47px]">
-            <div className="bg-[#2C3E50] p-1 pb-7 rounded-b-3xl rounded-tl-3xl text-white w-[220px]">
+            <div style={{ boxShadow: "4px 4px 8px 0px rgba(0, 0, 0, 0.25)" }} className="bg-[#2C3E50] p-1 pb-7 rounded-b-3xl rounded-tl-3xl text-white w-[220px]">
               <div className="flex justify-end">
                 <img src={ICONS.avatar} alt="" />
               </div>
@@ -58,7 +58,7 @@ const Hero = () => {
             </div>
 
             <div className="space-y-[14px]">
-              <div className="bg-[#9AA88D] p-1 pb-6 rounded-b-3xl rounded-tl-3xl text-white w-[220px]">
+              <div style={{ boxShadow: "4px 4px 8px 0px rgba(0, 0, 0, 0.25)" }} className="bg-[#9AA88D] p-1 pb-6 rounded-b-3xl rounded-tl-3xl text-white w-[220px]">
                 <div className="flex justify-end mr-5 mt-3">
                   <img src={ICONS.smileEmoji} alt="" />
                 </div>
@@ -68,11 +68,11 @@ const Hero = () => {
                 </p>
               </div>
 
-              <div className="bg-[#D46A16] p-1 pb-5 rounded-b-3xl rounded-tl-3xl text-white w-[160px]">
+              <div style={{ boxShadow: "4px 4px 8px 0px rgba(0, 0, 0, 0.25)" }} className="bg-[#D46A16] p-1 pb-5 rounded-b-3xl rounded-tl-3xl text-white w-[160px]">
                 <div className="flex justify-end mr-5 mt-3">
                   <img src={ICONS.announcement} alt="" />
                 </div>
-                <h1 className="text-[60px] leading-0 font-bold mt-3">200+</h1>
+                <h1 className="text-[60px] leading-0 font-bold mt-7">200+</h1>
                 <p className="text-sm leading-[22px] font-medium mt-9">
                   Successful campaign
                 </p>
