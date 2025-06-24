@@ -1,14 +1,13 @@
 import { ICONS } from "../../../assets";
+import SectionHeading from "../../reusable/SectionHeading/SectionHeading";
 
 const SolutionsWeOffer = () => {
   return (
     <div className="font-Lato my-[100px]">
-      <h1 className="text-[50px] text-neutral-10 leading-[40px] font-bold text-center">
-        Solutions We Offer
-      </h1>
-      <p className="text-neutral-10 text-2xl leading-[68px] text-center">
-        Content Creation Services We Offer Tailored to your Goals
-      </p>
+      <SectionHeading
+  title="Solutions We Offer"
+  subtitle="Content Creation Services We Offer Tailored to your Goals"
+/>
 
       <div className="flex gap-[30px] mt-[42px]">
         <div className="bg-[#FDF8EE] hover:bg-gradient-to-b hover:from-[#FDEBE7]/50 hover:to-[#F5C7C0] 
