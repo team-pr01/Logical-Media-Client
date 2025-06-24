@@ -1,4 +1,5 @@
 import logo from "../assets/icons/logo.png";
+import logoWhite from "../assets/icons/logo-white.png";
 import avatar from "../assets/icons/avatar.svg";
 import fire from "../assets/icons/fire.svg";
 import smileEmoji from "../assets/icons/smile-emoji.svg";
@@ -8,6 +9,10 @@ import developmentIcon from "../assets/icons/development.png";
 import contentProductionIcon from "../assets/icons/content-production.png";
 import aiAutomationIcon from "../assets/icons/ai-automation.png";
 import contentCreationIcon from "../assets/icons/content-creation.png";
+import rightArrow from "../assets/icons/right-arrow.svg";
+import call from "../assets/icons/call.svg";
+import mail from "../assets/icons/mail.svg";
+import location from "../assets/icons/location.svg";
 
 import heroImg from "../assets/images/hero-img.png";
 import partner1 from "../assets/images/partners/partner-1.jpg";
@@ -28,6 +33,7 @@ import contentCreation from "../assets/images/content-creation.png";
 
 export const ICONS = {
   logo,
+  logoWhite,
   avatar,
   fire,
   smileEmoji,
@@ -37,6 +43,10 @@ export const ICONS = {
   contentProductionIcon,
   aiAutomationIcon,
   contentCreationIcon,
+  rightArrow,
+  call,
+  mail,
+  location,
 };
 
 export const IMAGES = {
