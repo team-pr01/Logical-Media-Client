@@ -1,4 +1,5 @@
 import logo from "../assets/icons/logo.png";
+import logoWhite from "../assets/icons/logo-white.png";
 import avatar from "../assets/icons/avatar.svg";
 import fire from "../assets/icons/fire.svg";
 import smileEmoji from "../assets/icons/smile-emoji.svg";
@@ -8,6 +9,13 @@ import developmentIcon from "../assets/icons/development.png";
 import contentProductionIcon from "../assets/icons/content-production.png";
 import aiAutomationIcon from "../assets/icons/ai-automation.png";
 import contentCreationIcon from "../assets/icons/content-creation.png";
+import rightArrow from "../assets/icons/right-arrow.svg";
+import call from "../assets/icons/call.svg";
+import mail from "../assets/icons/mail.svg";
+import location from "../assets/icons/location.svg";
+import avatar1 from "../assets/icons/avatar-1.jpg";
+import avatar2 from "../assets/icons/avatar2.jpg";
+import avatar3 from "../assets/icons/avatar3.jpg";
 
 import heroImg from "../assets/images/hero-img.png";
 import partner1 from "../assets/images/partners/partner-1.jpg";
@@ -45,6 +53,7 @@ import ratings from "../assets/icons/ratings.svg"
 
 export const ICONS = {
   logo,
+  logoWhite,
   avatar,
   fire,
   smileEmoji,
@@ -66,7 +75,14 @@ export const ICONS = {
   whatsapp,
   tick,
   comment,
-  ratings
+  ratings,
+  rightArrow,
+  call,
+  mail,
+  location,
+  avatar1,
+  avatar2,
+  avatar3,
 };
 
 export const IMAGES = {

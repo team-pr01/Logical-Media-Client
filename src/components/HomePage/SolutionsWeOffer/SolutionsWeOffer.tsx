@@ -31,7 +31,7 @@ const SolutionsWeOffer = () => {
   ];
 
   return (
-    <div className="font-Lato my-[100px]">
+    <div className="font-Lato my-[100px] pl-5">
       <SectionHeading
   title1="Solutions We Offer"
   subtitle="Content Creation Services We Offer Tailored to your Goals"
