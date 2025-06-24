@@ -2,16 +2,29 @@ import { Link } from "react-router-dom";
 import Container from "../../reusable/Container/Container";
 import { IoPlayCircleOutline } from "react-icons/io5";
 import { ICONS, IMAGES } from "../../../assets";
+import TextTransition, { presets } from 'react-text-transition';
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+    const TEXTS = ['Results', 'Conversions', 'Success'];
+    const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
   return (
     <Container>
       <div className="flex items-center justify-between font-Lato mt-8">
         {/* Left side */}
         <div className="">
-          <h1 className="text-[60px] text-neutral-10 leading-[68px] font-bold max-w-[858px]">
+          <h1 className="text-[55px] text-neutral-10 leading-[68px] font-bold max-w-[900px]">
             Smart Strategy, Creative Media, Logical{" "}
-            <span className="text-primary-10">Results</span>{" "}
+            <span className="text-primary-10 inline-block">
+                <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition></span>{" "}
           </h1>
           <p className="text-neutral-10 text-[30px] leading-[57px] mt-[10px]">
             “Blending logic and creativity to craft compelling brand stories.”
