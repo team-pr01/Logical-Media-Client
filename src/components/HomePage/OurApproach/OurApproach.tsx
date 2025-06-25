@@ -44,7 +44,7 @@ const OurApproach = () => {
               />
             </div>
             <h1 className="text-[28px] text-neutral-10 leading-[27px] font-medium">
-              Our Approach
+              Our Approaches
             </h1>
           </div>
           <SectionHeading

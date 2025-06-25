@@ -10,7 +10,7 @@ const GetStartedCTA = () => {
             Get Your Business’s Free Audit Done Right Away
           </h1>
 
-          <div className=" w-[760px] h-[68px] flex items-center justify-between px-2 py-1 rounded-full border border-[#FDF8EE]">
+          <div className=" w-[760px] h-[68px] flex items-center justify-between px-2 rounded-full border border-[#FDF8EE]">
             <input
               type="text"
               placeholder="Enter your business link"
@@ -18,7 +18,7 @@ const GetStartedCTA = () => {
             />
             <Link
               to="/book-a-call"
-              className="bg-[#FDF8EE] border border-[#FDF8EE] hover:bg-transparent hover:text-[#FDF8EE] text-black text-[24px] px-10 py-2 rounded-[36px] shadow transition duration-300 "
+              className="bg-[#FDF8EE] border border-[#FDF8EE] hover:bg-transparent hover:text-[#FDF8EE] text-black text-[24px] px-10 py-2 w-[244px] rounded-[36px] shadow transition duration-300 text-center font-medium "
             >
               Get Started
             </Link>

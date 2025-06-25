@@ -44,7 +44,7 @@ const Navbar = () => {
         {/* Call to Action Button */}
         <Link
           to="/book-a-call"
-          className="bg-primary-10 border border-primary-10 hover:bg-white hover:text-primary-10 text-white text-[24px] px-6 py-2 rounded-[36px] shadow transition duration-300"
+          className="bg-primary-10 border border-primary-10 hover:border-0 hover:bg-gradient-to-r  hover:from-[#FDEBE7]/30 hover:to-primary-10 ease-in-out text-white text-[24px] px-6 py-2 rounded-[36px] shadow transition duration-300"
           style={{ boxShadow: "1px 2px 6px 0px rgba(0, 0, 0, 0.25)" }}
         >
           Book a Call
