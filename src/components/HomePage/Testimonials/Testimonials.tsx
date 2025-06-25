@@ -42,14 +42,14 @@ const Testimonials = () => {
 
   return (
     <div className=" bg-[#FDF8EE] font-Lato ">
-        <div className="py-[50px] pl-5">
+        <div className="py-[50px] pl-10">
           <SectionHeading
             title1="Testimonials"
             subtitle="Reviews from our clients."
           />
 
           <div
-        className="flex gap-[30px] mt-[30px] overflow-x-auto snap-x snap-mandatory scroll-smooth px-4 pb-4
+        className="flex gap-[60px] mt-[30px] overflow-x-auto snap-x snap-mandatory scroll-smooth px-4 pb-4
         scrollbar-hide"
       >
         {testimonials.map((item, index) => (

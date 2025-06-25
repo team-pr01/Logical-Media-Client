@@ -4,15 +4,15 @@ import { ICONS } from "../../../assets";
 
 const GetInTouch = () => {
   const getInTouchData = [
-    { title: "Research-First Thinking" },
-    { title: "Logical Planning" },
-    { title: "Creative Execution" },
+    { title: "Data-Driven Insights" },
+    { title: "Creative Campaigns" },
+    { title: "ROI Focused Execution" },
   ];
 
   return (
     <Container>
       <div className="flex flex-col items-center justify-center h-full font-Lato py-[100px]">
-        <h1 className="text-[50px] text-black leading-[58px] font-semibold text-center mb-[52px]">
+        <h1 className="text-[50px] text-black leading-[58px] font-semibold text-center mb-[32px]">
           Want to Scale your Business with Our Content Creation Services?
         </h1>
 
